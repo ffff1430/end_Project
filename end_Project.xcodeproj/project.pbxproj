@@ -13,6 +13,10 @@
 		F84C92A42456E8C7002DD649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84C92A22456E8C7002DD649 /* Main.storyboard */; };
 		F84C92A62456E8D2002DD649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84C92A52456E8D2002DD649 /* Assets.xcassets */; };
 		F84C92A92456E8D2002DD649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84C92A72456E8D2002DD649 /* LaunchScreen.storyboard */; };
+		F84C92B12456EB20002DD649 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C92B02456EB20002DD649 /* PhotoCollectionViewController.swift */; };
+		F84C92B32456EB32002DD649 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C92B22456EB32002DD649 /* PhotoCollectionViewCell.swift */; };
+		F84C92B52457191D002DD649 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84C92B42457191D002DD649 /* Json.swift */; };
+		F86251FE24583789003CFC77 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86251FD24583789003CFC77 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F84C92A52456E8D2002DD649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84C92A82456E8D2002DD649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84C92AA2456E8D2002DD649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84C92B02456EB20002DD649 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		F84C92B22456EB32002DD649 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F84C92B42457191D002DD649 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		F86251FD24583789003CFC77 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				F84C92A52456E8D2002DD649 /* Assets.xcassets */,
 				F84C92A72456E8D2002DD649 /* LaunchScreen.storyboard */,
 				F84C92AA2456E8D2002DD649 /* Info.plist */,
+				F84C92B02456EB20002DD649 /* PhotoCollectionViewController.swift */,
+				F84C92B22456EB32002DD649 /* PhotoCollectionViewCell.swift */,
+				F84C92B42457191D002DD649 /* Json.swift */,
+				F86251FD24583789003CFC77 /* ResultViewController.swift */,
 			);
 			path = end_Project;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F84C92A12456E8C7002DD649 /* ViewController.swift in Sources */,
+				F84C92B32456EB32002DD649 /* PhotoCollectionViewCell.swift in Sources */,
+				F86251FE24583789003CFC77 /* ResultViewController.swift in Sources */,
 				F84C929D2456E8C7002DD649 /* AppDelegate.swift in Sources */,
+				F84C92B52457191D002DD649 /* Json.swift in Sources */,
 				F84C929F2456E8C7002DD649 /* SceneDelegate.swift in Sources */,
+				F84C92B12456EB20002DD649 /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
